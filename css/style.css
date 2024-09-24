@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.topcontainer{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+h1{
+    font-size: 90px;
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF ;
+    
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF ;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #11999E;
+}
+hr{
+    border: dotted 6px;
+    width: 4%;
+    border-bottom: none;
+
+    border-color: gray;
+}
+p{
+    line-height: 2;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom: 250px;
+}
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-now{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.bottom-container{
+    background-color:#66BFBF;
+    margin: 100px auto 0px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+a{
+    margin:10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6 ;
+}
+.middle-container{
+    margin:100px auto 0 auto ;
+}
+.btn {
+    border-radius: 20px;
+    height: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    width: 118px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 40px;
+    background-color: #3D97F6;
+    box-shadow: 1px 1px 20px 0 #FFFFFF;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ .copyright{
+color: #EAF6F6;
+font-size:0.75rem;
+padding:20px 0px;
+ }
+ .contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#11999E;
+   
+    height:100vh;
+
+ }
+ .contact h2{
+    color:white;
+ }
+
+ @media screen and(max-width:960px){
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    .btn{
+        padding: 30px;
+    }
+    .copyright{
+        font-size: 0.50rem;
+        padding: 15px 0px;
+    }
+ }
