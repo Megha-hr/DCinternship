@@ -16,11 +16,11 @@ app.use(cors(
   }
 ))
 
-app.get('/',(req,res)=>{
+app.get('https://d-cinternship-api.vercel.app',(req,res)=>{
     res.send("Api is running");
 })
 
-app.use('/api/products',productRoutes)
+app.use('https://d-cinternship-api.vercel.app/api/products',productRoutes)
 app.use(notFound)
 app.use(errorHandler)
 
