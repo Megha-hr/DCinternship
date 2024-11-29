@@ -7,7 +7,7 @@ const HomeScreen = () => {
   const  [products,setProducts]=useState([]);
   useEffect(()=>{
     const fetchProduct= async()=>{
-      const {data}= await axios.get('http://d-cinternship-api.vercel.app/api/products');
+      const {data}= await axios.get('https://d-cinternship-api.vercel.app/api/products');
       setProducts(data)
     };
     fetchProduct();
