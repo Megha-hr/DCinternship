@@ -10,7 +10,7 @@ connectDB();
 const app=express()
 app.use(cors(
   {
-    origin:["https://d-cinternship-api.vercel.app/"],
+    origin:["https://d-cinternship-api.vercel.app"],
     methods:["POST","GET"],
    Credential:true
   }
